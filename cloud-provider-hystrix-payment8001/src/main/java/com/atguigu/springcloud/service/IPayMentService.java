@@ -9,4 +9,10 @@ import com.atguigu.springcloud.domain.PayMent;
 public interface IPayMentService {
 
     boolean addPayMent(PayMent payMent);
+
+    public String paymentInfo_ok(Integer id);
+
+    public String paymentInfo_fail(Integer id);
+
+    public String paymentCircuitBreaker(Integer id);
 }

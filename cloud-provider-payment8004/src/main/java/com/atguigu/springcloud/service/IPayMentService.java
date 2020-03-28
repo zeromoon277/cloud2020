@@ -8,5 +8,5 @@ import com.atguigu.springcloud.domain.PayMent;
  */
 public interface IPayMentService {
 
-    public boolean addPayMent(PayMent payMent);
+    boolean addPayMent(PayMent payMent);
 }
