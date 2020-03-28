@@ -17,8 +17,11 @@ spring:
         output:
           destination: studyExchange
           content-type: application/json
-          binder: rabbit
-
+          binder: defaultRabbit
+        input:
+          destination: studyExchange
+          content-type: application/json
+          binder: defaultRabbit
 
 
 server:
